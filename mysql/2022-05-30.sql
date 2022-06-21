@@ -32,7 +32,7 @@ MySQL 은 실무에서 가장 많이 사용하는 버전이 5.7.x 이다
 lee98@localhost 사용자에게myDB Schema 에 접근하여
 모든 DML 명령을 수핼할수 있는 권한을 부여하겠다
 */
-grant all privileges on myDB.* 
+grant all privileges on myDBtbl_emstbl_ems.* 
 to 'lee98'@'localhost';
 
 create user'user1'@'127.0.0.1' 
