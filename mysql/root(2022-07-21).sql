@@ -8,7 +8,7 @@ USE schoolDB;
 -- 가급적 특별한 경우가 아니면 @'localhost'로 지정하는것이 좋음
 create user lee9805@'localhost' identified by '!Korea8080';
 -- 사용자에게 schoolDB 에 접근할수 있는 권한 부여
-grant all privileges on schoolDB.* to lee98@'localhost';
+grant all privileges on schoolDB.* to lee9805@'localhost';
 
 
 -- 현재 root 외 등록된 사용자에게 DB 전체에 대한 권한 부여하기

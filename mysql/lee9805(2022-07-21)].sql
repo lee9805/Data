@@ -10,6 +10,7 @@ create table tbl_school (
 	st_tel	 VARCHAR(15)	NOT NULL,	
 	st_addr	VARCHAR(125)
 );
+select * from tbl_school;
 select count(*) from tbl_school;
 
 create table tbl_subject (
@@ -155,10 +156,6 @@ group by sc_stnum;
 이 데티어를 쉽게 보고서등으로 만들때는 pivot을 하여
 column 방향으로 펼쳐서 보는것이 편리하다
 */
-
-
-
-
 
 
 
